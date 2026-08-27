@@ -1,6 +1,6 @@
 cask "granit" do
-  version "0.7.0"
-  sha256 "c2c5ff69bea0e069fd0072313b025cd6a19cf0f4d4a67a7121cc18b16120e846"
+  version "0.8.0"
+  sha256 "e73fcedebcb87091a22084d221afd23c5a9b73a42d897f8f633a3625d3530011"
 
   url "https://github.com/LHelge/granit/releases/download/v#{version}/Granit_#{version}_aarch64.dmg",
       verified: "github.com/LHelge/granit/"

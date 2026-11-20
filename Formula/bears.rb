@@ -1,24 +1,24 @@
 class Bears < Formula
   desc "File-based task tracker CLI and MCP server for AI agent workflows"
   homepage "https://github.com/LHelge/bea-rs"
-  version "0.9.0"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/LHelge/bea-rs/releases/download/v0.9.0/bea-macos-aarch64"
-      sha256 "541221165ed5e6bafe0c4aea63237842306362c27c71d0bf5dd086cdc816d774"
+      url "https://github.com/LHelge/bea-rs/releases/download/v0.10.0/bea-macos-aarch64"
+      sha256 "37ee36458d46047a60e4c37c0d381b069d61824af525204520a4a00483ea9233"
     end
     on_intel do
-      url "https://github.com/LHelge/bea-rs/releases/download/v0.9.0/bea-macos-x86_64"
-      sha256 "4ed078effa47fc2641abf4de093b97730af16d77647e7022ff19b53c3ecf983e"
+      url "https://github.com/LHelge/bea-rs/releases/download/v0.10.0/bea-macos-x86_64"
+      sha256 "75857064b2080a177b49d94b51549ac3df9734c11ceac4081ffd10d45152909c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/LHelge/bea-rs/releases/download/v0.9.0/bea-linux-x86_64"
-      sha256 "e80a49bf649bc9cd1cf8d1ec0b3f55d418887a86a4c45eeffa2191325c41e961"
+      url "https://github.com/LHelge/bea-rs/releases/download/v0.10.0/bea-linux-x86_64"
+      sha256 "dcb919ca36fdb9fea598205bfe3c42a070a8c5f5a606ed588408599ef9a517a9"
     end
   end
 

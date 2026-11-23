@@ -1,24 +1,24 @@
 class Wirebug < Formula
   desc "Text-defined electrical schematics and wiring harnesses"
   homepage "https://github.com/LHelge/wirebug"
-  version "0.2.0"
+  version "0.2.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/LHelge/wirebug/releases/download/v0.2.0/wirebug-macos-aarch64"
-      sha256 "9015a43d1fa7d2cccc29cfc15beca8edddfd3c9abda11afb62ebbcd1a7fea37a"
+      url "https://github.com/LHelge/wirebug/releases/download/v0.2.1/wirebug-macos-aarch64"
+      sha256 "d2b9ad3c0d1e8f46e34e5532ec38b34f0263d06e98e5be9733ba2189217311ac"
     end
     on_intel do
-      url "https://github.com/LHelge/wirebug/releases/download/v0.2.0/wirebug-macos-x86_64"
-      sha256 "441af65045c98d8c36acd5aaffed47e692df0891238d1247933062d942643f4c"
+      url "https://github.com/LHelge/wirebug/releases/download/v0.2.1/wirebug-macos-x86_64"
+      sha256 "c47a2eabab22b893b79016074ac46497f0fc74dfd9b3642b482dfb92c0a91988"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/LHelge/wirebug/releases/download/v0.2.0/wirebug-linux-x86_64"
-      sha256 "b1284701a61d17785bab9ecdf7696897d1f5dd1d1302c2dfa8f26058f2639de8"
+      url "https://github.com/LHelge/wirebug/releases/download/v0.2.1/wirebug-linux-x86_64"
+      sha256 "82f17c9ea6c3c9732090d437aa76a06c894b0aae2922616bc683e7040fa8dfd9"
     end
   end
 
